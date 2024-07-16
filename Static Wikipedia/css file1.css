@@ -1,0 +1,70 @@
+
+  /*CSS always work with selectors, which will indicate on which element should CSS applied.*/
+  	*{
+		
+		background:black;
+	}
+	/* tag selector */
+	p{
+		text-align:justify;
+	}
+	/* class selector */
+  	.myDiv{
+  		margin:0px;
+		border:10px double ; color : black;
+		width:100% ;
+		display:inline-block;
+		text-align:justify;
+		padding:5px;
+		font-size:15px;
+		/* padding-top:100px;
+		padding-bottom:
+		padding-left:
+		padding-right: */
+
+		/* margin-top:
+		margin-bottom:
+		margin-left:
+		margin-right: */
+	}
+
+	/* id selector */
+	
+	#c{
+	
+		color:black;
+		border-color:white;
+	}
+
+	#color{
+		color:black;
+		border-color:white;
+		margin:0px;
+	}
+	#text{
+		 text : black;
+	}
+	/*scale effect*/
+	td{
+	background-color: white;
+	transition: all 0.25s ease-in-out;
+	}
+	td:hover{
+	transform: scale(1.08);
+	}
+
+	.c{
+	background-image:url(https://www.collab2.co.za/wp-content/uploads/2017/06/contact-us-background.jpg );
+	background-repeat: no-repeat;
+	background-size: cover;	
+	color:white;
+	}
+ 	.f{	
+ 	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	position:fixed;
+	  right: 0;
+    background-color: #dddddd;
+}
+  
